@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  background-color: green;
+}
+
+h1,
+h2 {
+  color: bisque;
+}
+
+button {
+  height: 50px;
+  width: fit-content;
+  min-width: 110px;
+  padding: 10px 30px 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.title {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(138, 138, 138, 0.5);
+  text-align: center;
+  height: 70px;
+  font-size: 42px;
+}
+
+.layout {
+  text-align: center;
+}
+
+.wrapper {
+  margin: auto;
+  width: fit-content;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  height: 120px;
+  width: 120px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: bisque;
+  padding-top: 60px;
+  border-radius: 10px;
+  font-size: 3rem;
+  text-align: center;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card[data-red="true"] {
+  color: red;
+}
+
+.back {
+  content: "";
+  background-color: rgba(255, 0, 0, 0.827);
+}
+
+.container {
+  margin: 30px;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  background: rgba(138, 138, 138, 0.5);
+  backdrop-filter: blur(0.5px);
+}
+
+.notice {
+  margin-bottom: 10%;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  background: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.notice p {
+  margin: 0;
+  padding: 0;
+  white-space: pre-wrap;
+  line-height: 150%;
+}
