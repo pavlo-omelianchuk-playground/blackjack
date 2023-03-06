@@ -16,7 +16,6 @@ export class Hand {
     let hasAce = false;
 
     if (!Array.isArray(this.cards)) return;
-    console.log(this.cards);
     for (let card of this.cards) {
       if (card.rank === "A") {
         hasAce = true;
